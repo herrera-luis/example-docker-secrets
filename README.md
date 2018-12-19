@@ -1,4 +1,4 @@
-## Basic example for implements secrets in Docker
+## Basic example for use secrets in Docker
 
 **This example works in Docker 18.09.0 or greater**
 
