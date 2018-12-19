@@ -1,0 +1,146 @@
+
+#2 [internal] load .dockerignore
+#2       digest: sha256:f679f9f64694871b3a6baf0d07c38e427b6e7446bb1aaf0c4530658e80436a08
+#2         name: "[internal] load .dockerignore"
+#2      started: 2018-12-19 03:09:20.2390559 +0000 UTC
+#2    completed: 2018-12-19 03:09:20.255478 +0000 UTC
+#2     duration: 16.4221ms
+#2 transferring context: 2B done
+
+
+#1 [internal] load build definition from Dockerfile
+#1       digest: sha256:535077c2fa11d20c6ae09257e45e90e9e7788e9a8c610db1d55f8b5a415d12fd
+#1         name: "[internal] load build definition from Dockerfile"
+#1      started: 2018-12-19 03:09:20.2388394 +0000 UTC
+#1    completed: 2018-12-19 03:09:20.251993 +0000 UTC
+#1     duration: 13.1536ms
+#1 transferring dockerfile: 37B done
+
+
+#3 resolve image config for docker.io/docker/dockerfile:1.0-experimental
+#3       digest: sha256:74c2b22e535000215e4c6e91e97eaf031c745b5077d1b004e21d261b62c88704
+#3         name: "resolve image config for docker.io/docker/dockerfile:1.0-experimental"
+#3      started: 2018-12-19 03:09:20.3046597 +0000 UTC
+#3    completed: 2018-12-19 03:09:20.9870863 +0000 UTC
+#3     duration: 682.4266ms
+
+
+#4 docker-image://docker.io/docker/dockerfile:1.0-experimental@sha256:2220e...
+#4       digest: sha256:e826b50c8e67e0dba1c7fef9180d2819f56017243ed374b48283afbd0d90e11e
+#4         name: "docker-image://docker.io/docker/dockerfile:1.0-experimental@sha256:2220efe9582e00cd8f6bbee8f4566e34d7f0388c0e10f2b20499cc19ddd140d8"
+#4      started: 2018-12-19 03:09:20.9876672 +0000 UTC
+#4    completed: 2018-12-19 03:09:20.9880476 +0000 UTC
+#4     duration: 380.4µs
+#4      started: 2018-12-19 03:09:20.9883549 +0000 UTC
+#4    completed: 2018-12-19 03:09:20.9884648 +0000 UTC
+#4     duration: 109.9µs
+#4       cached: true
+
+
+#6 [internal] load build definition from Dockerfile
+#6       digest: sha256:3f53aa0ce0568c554bf13e99a5230bfa0165c2490babfb54a90a2a8f0983f96e
+#6         name: "[internal] load build definition from Dockerfile"
+#6      started: 2018-12-19 03:09:21.910776 +0000 UTC
+#6    completed: 2018-12-19 03:09:21.9110463 +0000 UTC
+#6     duration: 270.3µs
+#6      started: 2018-12-19 03:09:21.911139 +0000 UTC
+#6    completed: 2018-12-19 03:09:21.925617 +0000 UTC
+#6     duration: 14.478ms
+#6 transferring dockerfile: 37B done
+
+
+#5 [internal] load .dockerignore
+#5       digest: sha256:12bed2539de21e8f197303baa3df1886e0aa4f15a53bad297ea20ae89bc6d6e6
+#5         name: "[internal] load .dockerignore"
+#5      started: 2018-12-19 03:09:21.9097869 +0000 UTC
+#5    completed: 2018-12-19 03:09:21.9098619 +0000 UTC
+#5     duration: 75µs
+#5      started: 2018-12-19 03:09:21.9101263 +0000 UTC
+#5    completed: 2018-12-19 03:09:21.9206363 +0000 UTC
+#5     duration: 10.51ms
+#5 transferring context: 2B done
+
+
+#7 [internal] load metadata for docker.io/library/alpine:latest
+#7       digest: sha256:d4fb25f5b5c00defc20ce26f2efc4e288de8834ed5aa59dff877b495ba88fda6
+#7         name: "[internal] load metadata for docker.io/library/alpine:latest"
+#7      started: 2018-12-19 03:09:21.9649591 +0000 UTC
+#7    completed: 2018-12-19 03:09:21.9652854 +0000 UTC
+#7     duration: 326.3µs
+
+
+#8 [1/6] FROM docker.io/library/alpine
+#8       digest: sha256:665ba8b2cdc0cb0200e2a42a6b3c0f8f684089f4cd1b81494fbb9805879120f7
+#8         name: "[1/6] FROM docker.io/library/alpine"
+#8      started: 2018-12-19 03:09:21.9672288 +0000 UTC
+#8    completed: 2018-12-19 03:09:21.9677342 +0000 UTC
+#8     duration: 505.4µs
+#8      started: 2018-12-19 03:09:21.9681147 +0000 UTC
+#8    completed: 2018-12-19 03:09:21.9682362 +0000 UTC
+#8     duration: 121.5µs
+#8       cached: true
+
+
+#9 [2/6] RUN apk add jq
+#9       digest: sha256:97f6e544c47013c20300bbfc0ce5fade63b44ee3187bb45343d7199c2e60d156
+#9         name: "[2/6] RUN apk add jq"
+#9      started: 2018-12-19 03:09:21.9686154 +0000 UTC
+#9 2.157 fetch http://dl-cdn.alpinelinux.org/alpine/v3.8/main/x86_64/APKINDEX.tar.gz
+#9 2.489 fetch http://dl-cdn.alpinelinux.org/alpine/v3.8/community/x86_64/APKINDEX.tar.gz
+#9 2.743 (1/2) Installing oniguruma (6.8.2-r0)
+#9 2.783 (2/2) Installing jq (1.6_rc1-r1)
+#9 2.819 Executing busybox-1.28.4-r1.trigger
+#9 2.824 OK: 5 MiB in 15 packages
+#9    completed: 2018-12-19 03:09:25.3582926 +0000 UTC
+#9     duration: 3.3896772s
+
+
+#10 [3/6] RUN --mount=type=secret,id=credentials cat /run/secrets/credential...
+#10       digest: sha256:750deb0f11e1d934cd32b6e4d6a3a9ae17e1d397d3f269caf7570da81cc7ba4b
+#10         name: "[3/6] RUN --mount=type=secret,id=credentials cat /run/secrets/credentials"
+#10      started: 2018-12-19 03:09:25.3602093 +0000 UTC
+#10 2.824 {
+#10 2.824     "username":"luis",
+#10 2.824     "password":"some-password",
+#10 2.824     "driver":"some-driver"
+#10 2.824 }#10    completed: 2018-12-19 03:09:28.7645153 +0000 UTC
+#10     duration: 3.404306s
+#10 2.824 }
+
+#11 [4/6] RUN --mount=type=secret,id=credentials,dst=/foobar cat /foobar | j...
+#11       digest: sha256:17032593b5537e78e8be9034491cb1448fbca57561dc85a398877aed6171bc63
+#11         name: "[4/6] RUN --mount=type=secret,id=credentials,dst=/foobar cat /foobar | jq '.\"username\"'"
+#11      started: 2018-12-19 03:09:28.7661711 +0000 UTC
+#11 2.322 "luis"
+#11    completed: 2018-12-19 03:09:31.6106283 +0000 UTC
+#11     duration: 2.8444572s
+
+
+#12 [5/6] RUN --mount=type=secret,id=credentials,dst=/foobar cat /foobar | j...
+#12       digest: sha256:fa1deb5b4be9e28a0c4e94d8cda1d2f24786db3ad942e5b870524c754a8eb9b2
+#12         name: "[5/6] RUN --mount=type=secret,id=credentials,dst=/foobar cat /foobar | jq '.\"password\"'"
+#12      started: 2018-12-19 03:09:31.6121476 +0000 UTC
+#12 2.074 "some-password"
+#12    completed: 2018-12-19 03:09:34.3235577 +0000 UTC
+#12     duration: 2.7114101s
+
+
+#13 [6/6] RUN --mount=type=secret,id=credentials,dst=/foobar cat /foobar | j...
+#13       digest: sha256:09da39eae05aaf4efbd1d0addbd495be0ca72216966936d146c67dd9d7e8e5c5
+#13         name: "[6/6] RUN --mount=type=secret,id=credentials,dst=/foobar cat /foobar | jq '.\"driver\"'"
+#13      started: 2018-12-19 03:09:34.3252306 +0000 UTC
+#13 2.135 "some-driver"
+#13    completed: 2018-12-19 03:09:36.9925003 +0000 UTC
+#13     duration: 2.6672697s
+
+
+#14 exporting to image
+#14       digest: sha256:c430cd82e13a5185d4a26e0bf0884299f2f966ad7ed0d10cf89bc2f4110824f7
+#14         name: "exporting to image"
+#14      started: 2018-12-19 03:09:37.4634724 +0000 UTC
+#14 exporting layers 0.1s done
+#14 writing image sha256:ef17301bffbac9e3d015bc13a9488a65a4ba453be0b60db91401f01189846f4a
+#14    completed: 2018-12-19 03:09:37.5168539 +0000 UTC
+#14     duration: 53.3815ms
+#14 writing image sha256:ef17301bffbac9e3d015bc13a9488a65a4ba453be0b60db91401f01189846f4a done
+
